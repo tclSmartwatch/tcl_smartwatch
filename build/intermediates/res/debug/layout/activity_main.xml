@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    
+	
+	android:id="@+id/layoutScreen" >
+
+	<TextView 
+	    android:id="@+id/layoutTextView0"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    android:gravity="center"
+	    android:text="aaaaaa"
+	    android:textSize="40sp" />
+	
+	<TextView 
+	    android:id="@+id/layoutTextView1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:text="bbbbbbb"
+	    android:textSize="20sp"
+	    android:layout_below="@id/layoutTextView0" />
+</RelativeLayout><!-- From: file:/Users/linchaoyue/Documents/gitwork/watch/tcl_smartwatch/Watch/res/layout/activity_main.xml -->

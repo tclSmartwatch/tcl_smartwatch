@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center" >
+   
+    <Button 
+        android:id="@+id/menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drawable_round"
+        android:text="@string/menu" />
+    
+    <Button 
+        android:id="@+id/switcher"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drawable_round"
+        android:text="@string/show" />
+    
+    <Button 
+        android:id="@+id/exit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drawable_round"
+        android:text="@string/exit" />
+</LinearLayout>
+<!-- From: file:/Users/linchaoyue/Documents/gitwork/watch/tcl_smartwatch/Watch/res/layout/activity_subui.xml -->
